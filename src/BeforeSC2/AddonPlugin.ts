@@ -1,4 +1,4 @@
-import {} from 'lodash';
+import {} from 'lodash-es';
 import {ModInfo} from "./ModLoader";
 import {ModZipReader} from "./ModZipReader";
 import {LogWrapper, ModLoadController} from 'ModLoadController';

@@ -2,8 +2,8 @@ import {ModBootJson, ModInfo} from "ModLoader";
 import {SC2DataManager} from "SC2DataManager";
 import JSZip from "jszip";
 import {IndexDBLoader, LocalStorageLoader} from "./ModZipReader";
-import moment from "moment";
-
+import {Dayjs} from "dayjs"
+import dayjs from "dayjs"
 
 export interface LogWrapper {
     log: (s: string) => void;
@@ -129,7 +129,7 @@ const ModLoadControllerCallback_ScriptLazyLoadHook = [
 
 export interface LogRecord {
     type: 'info' | 'warning' | 'error';
-    time: moment.Moment;
+    time: Dayjs;
     message: string;
 }
 
@@ -234,21 +234,21 @@ export class ModLoadController implements ModLoadControllerCallback {
                         case "logInfo":
                             this.logRecordBeforeAnyLogHookRegister.push({
                                 type: 'info',
-                                time: moment(),
+                                time: dayjs(),
                                 message: s,
                             });
                             break;
                         case "logWarning":
                             this.logRecordBeforeAnyLogHookRegister.push({
                                 type: 'warning',
-                                time: moment(),
+                                time: dayjs(),
                                 message: s,
                             });
                             break;
                         case "logError":
                             this.logRecordBeforeAnyLogHookRegister.push({
                                 type: 'error',
-                                time: moment(),
+                                time: dayjs(),
                                 message: s,
                             });
                             break;

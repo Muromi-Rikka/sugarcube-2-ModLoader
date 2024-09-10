@@ -1,4 +1,4 @@
-import {cloneDeep, get, has, isArray, isObject, isString, uniq, isNil} from 'lodash';
+import {cloneDeep, get, has, isArray, isObject, isString, uniq, isNil} from 'lodash-es';
 import {SC2DataInfo} from "./SC2DataInfoCache";
 import {SimulateMergeResult, simulateMergeSC2DataInfoCache} from "./SimulateMerge";
 import {

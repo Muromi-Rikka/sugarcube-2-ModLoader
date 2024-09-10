@@ -17,7 +17,7 @@ import {
     isMap,
     isFunction,
     isNil,
-} from 'lodash';
+} from 'lodash-es';
 
 export enum ModLoadFromSourceType {
     'Remote' = 'Remote',

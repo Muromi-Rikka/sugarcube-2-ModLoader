@@ -43,11 +43,7 @@ const config = {
     // }),
 
     //      INFO: run Ts Check in parallel, [use special tsconfig]
-    new ForkTsCheckerWebpackPlugin({
-      typescript: {
-        configFile: 'src/BeforeSC2/tsconfig.comp.json',
-      }
-    }),
+ 
 
     // // https://www.npmjs.com/package/zip-webpack-plugin
     // new ZipPlugin({

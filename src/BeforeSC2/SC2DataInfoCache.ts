@@ -1,5 +1,5 @@
 import {LogWrapper} from "ModLoadController";
-import {cloneDeep, parseInt} from "lodash";
+import {cloneDeep, parseInt} from "lodash-es";
 
 export interface StyleTextFileItem {
     // 0 means no id

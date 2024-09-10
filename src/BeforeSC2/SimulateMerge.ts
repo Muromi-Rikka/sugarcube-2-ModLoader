@@ -1,5 +1,5 @@
 import {SC2DataInfo, SC2DataInfoCache} from "./SC2DataInfoCache";
-import {cloneDeep} from "lodash";
+import {cloneDeep} from "lodash-es";
 
 export interface SimulateMergeResultItem {
     ok: Set<string>;

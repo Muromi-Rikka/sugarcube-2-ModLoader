@@ -7,7 +7,7 @@ import {
     parseVersion,
     satisfies
 } from './SemVer/InfiniteSemVer';
-import {findIndex} from 'lodash';
+import {findIndex} from 'lodash-es';
 import {ModOrderContainer, ModOrderItem} from "./ModOrderContainer";
 
 export class InfiniteSemVerApi {

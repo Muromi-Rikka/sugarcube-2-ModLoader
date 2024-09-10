@@ -1,6 +1,6 @@
 import {PassageDataItem, SC2DataInfo, SC2DataInfoCache} from './SC2DataInfoCache';
 import {ModDataLoadType, ModInfo, ModLoader} from "./ModLoader";
-import {cloneDeep, isSafeInteger} from "lodash";
+import {cloneDeep, isSafeInteger} from "lodash-es";
 import {
     concatMergeSC2DataInfoCache,
     normalMergeSC2DataInfoCache,

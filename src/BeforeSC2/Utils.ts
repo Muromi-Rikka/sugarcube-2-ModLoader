@@ -1,5 +1,5 @@
 import {SC2DataManager} from "./SC2DataManager";
-import {isInteger, isString} from "lodash";
+import {isInteger, isString} from "lodash-es";
 import _ from "lodash";
 import {getModZipReaderStaticClassRef, ModZipReader, Twee2Passage, Twee2PassageR} from "./ModZipReader";
 import {PassageDataItem, SC2DataInfo, SC2DataInfoCache} from "./SC2DataInfoCache";

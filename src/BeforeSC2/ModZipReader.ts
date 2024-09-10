@@ -1,5 +1,5 @@
 import JSZip from "jszip";
-import {every, get, has, isArray, isString, uniq} from "lodash";
+import {every, get, has, isArray, isString, uniq} from "lodash-es";
 import {get as keyval_get, set as keyval_set, del as keyval_del, createStore, UseStore, setMany} from 'idb-keyval';
 import {SC2DataInfo} from "./SC2DataInfoCache";
 import {checkDependenceInfo, checkModBootJsonAddonPlugin, ModBootJson, ModImgGetterDefault, ModInfo} from "./ModLoader";

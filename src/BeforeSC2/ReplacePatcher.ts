@@ -1,4 +1,4 @@
-import {isString, isArray, every, isNil, get} from 'lodash';
+import {isString, isArray, every, isNil, get} from 'lodash-es';
 import {SC2DataInfo} from "./SC2DataInfoCache";
 import {LogWrapper, ModLoadControllerCallback} from "./ModLoadController";
 
